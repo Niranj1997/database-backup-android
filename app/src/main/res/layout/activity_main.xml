@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/countRecordsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Count Records" />
+
+    <Button
+        android:id="@+id/addRecordsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Add Records" />
+
+    <Button
+        android:id="@+id/deleteRecordsButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Delete Records" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/backupButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Backup" />
+
+    <Button
+        android:id="@+id/restoreButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Restore" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Sign Out" />
+
+</LinearLayout>
